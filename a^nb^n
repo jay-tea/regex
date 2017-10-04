@@ -1,3 +1,3 @@
-Expression: /^(a(?1)?b)$/
+Expression: ^(a(?1)?b)?$
 
 Sample matched strings: "ab", "aabb", "aaaaabbbbb"
