@@ -1,0 +1,7 @@
+This is a general technique you can use to check if a string contains some set of letters, words, or even substrings described by more complex patterns, in any order.
+
+The example checks if a word contains all 5 vowels in any order:
+
+Expression: (?:\w*?(?:a()|e()|i()|o()|u()))++\1\2\3\4\5
+
+Example matched strings: "aeiou", "eunoia", "facetious"
